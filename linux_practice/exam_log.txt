@@ -1,0 +1,64 @@
+    1  history -w
+    2  history -w
+    3  logout
+    4  history
+    5  logout
+    6  ls
+    7  cd 236815367-Dilan
+    8  mkdir linux_practice
+    9  ls
+   10  cd linux_practice
+   11  touch notes.txt
+   12  dir>>notes.txt
+   13  echo "Hello,Linux">>notes.txt
+   14  echo "This is a practical exam">>notes.txt
+   15  head notes.txt
+   16  head -n 1 notes.txt
+   17  tail -n 1 notes.txt
+   18  mkdir subdir
+   19  mv notes.txt subdir
+   20  ls
+   21  mv subdir practice_subdir
+   22  ls
+   23  cd practice_dir
+   24  cd practice_subdir
+   25  ls
+   26  mv notes.txt linux_practice
+   27  ls
+   28  cd.. 
+   29  cd ..
+   30  ls
+   31  cd practice_subdir
+   32  ls
+   33  mv linux_practice notes.txt
+   34  ls
+   35  mv notes.txt /linux_practice
+   36  mv --help
+   37  mv -n notes.txt linux_practice
+   38  ls
+   39  cp notex.txt linux_pracrice
+   40  cp notes.txt linux_pracrice
+   41  cd ..
+   42  ls
+   43  cd practice_subdir
+   44  mv linux_practice notes.txt
+   45  ls
+   46  mv notes.txt -t linux_practice
+   47  mv notes.txt -t /linux_practice
+   48  mv notes.txt -t ..
+   49  ls
+   50  cd ..
+   51  ls
+   52  date
+   53  times
+   54  time
+   55  df -t
+   56  df --help
+   57  df -t /home
+   58  python --version
+   59  javac --version
+   60  git --version
+   61  gh -v
+   62  gh --version
+   63  git branch finalexam
+   64  history>exam_log.txt
